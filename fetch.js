@@ -1,3 +1,5 @@
+//exporto formula para llamar api y reutilizar
+
 export const callApi = async(url)=>{
     try{
         const response = await fetch (url);
