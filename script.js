@@ -12,7 +12,7 @@ const borderOrangeColor = 'rgb(255, 159, 64)';
 
 
 
-
+//llamo callApi desde archivo fetch.js
 const getData = async () => {
     const earthquake = await callApi('https://api.gael.cloud/general/public/sismos');
     console.log('arreglo original es: ', earthquake);
