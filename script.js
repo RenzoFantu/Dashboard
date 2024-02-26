@@ -36,7 +36,7 @@ const getData = async () => {
         data: {
           labels: georeferencia,
           datasets: [{
-            label: 'Magnitud mayor a 3°', 
+            label: 'Magnitud', 
             data: magnitudes,
             backgroundColor: backroundColors,
             borderColor:  borderColors,
